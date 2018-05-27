@@ -1,0 +1,554 @@
+@font-face {
+	font-family: museoslab500;
+	src: url('./museo_slab_500.otf');
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #d7f2f9;
+
+}
+
+#navbar{
+	background: linear-gradient(
+		to bottom,
+		#464646,
+		#464646 50%,
+		#3b3b3b 50%,
+		#3b3b3b
+		);
+	width: 100%;
+	height: 69px;
+	overflow: hidden;
+	text-align: center;
+}
+
+#sec{
+	width: 940px;
+	height: 69px;
+	margin: auto;
+	background-color: transparent;
+	text-align: left;
+	vertical-align: middle;
+
+	}
+
+#sec a img {
+	position: relative;
+}
+
+.one{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: -60px;
+	left: 237px;
+}
+
+.one li {
+	display: inline-block;
+	height: 68.8px;
+	text-align: center;
+	float: left;
+	font-family: Helvetica;
+	font-size: 14px;
+	border-right: 1px solid #535353;
+}
+
+.one li:first-child{
+	border-left: 1px solid #535353;
+}
+
+.one li a{
+	text-decoration: none; 
+	display:block;
+	color: white;
+	font-weight: bold;
+	padding: 26px 20px;
+	margin: 0;
+
+	
+}
+
+
+.one li a:hover {
+	background-color: #3b3b3b;
+
+}
+
+.one li:first-child a {
+	padding: 26px 19px 26px 21px;
+}
+
+.two{
+	list-style-type: none;
+	position: relative;
+	top: -60px;
+	left:457px;
+	text-decoration: none;
+	color: white;
+	height: 37px;
+}
+
+.two li {
+	display: inline-block;
+	height: 34px;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 14px;
+	font-weight: bold;
+	border:1px solid#181818;
+	border-bottom: 1px solid#000;
+	border-top: 1px solid #2d2d2d;
+	border-radius: 3px;
+	overflow: hidden;
+	margin-left: 6px;
+
+}
+
+.two li a {
+	display: block;
+	font-weight: bold;
+	color: white;
+	padding: 9px 15px;
+	margin: 0;
+	text-decoration: none;
+
+}
+
+.two li:first-child a{
+	position: relative;
+	top: -2px;
+	left: -1px;
+	width: 95px;
+
+}
+
+.two li a img {
+	margin-left: 10px;
+	width: 17.75px;
+	height: 17.75px;
+	position: relative;
+	left:1.25px;
+	top:4px;
+
+}
+
+.two li:hover {
+	background: #3b3b3b;
+}
+
+#topbg {
+  background:url(./images/topbg.png) repeat-y 0% 0%;
+  	margin-left: 223px;
+  	width: 905px;
+  	height: 425px;
+    top:-41px;
+  	position: relative;
+  	  }
+#toptopbg {
+  background:url(./images/toptop.png) no-repeat 0% 0%;
+  position:relative;
+  margin-left: 223px;
+  margin-top:22px;
+  height:20px;
+}
+
+#first {
+	font-family: museoslab500;
+	font-size: 50px; 
+	color: #CE2654;
+	text-align: center;
+	line-height: 47px;
+	position: relative;
+	left:-150px;
+	top:33px;
+	width: 94%;
+
+}
+
+#second{
+	font-family: museoslab500;
+	font-size: 50px; 
+	color: #CE2654;
+	text-align: center;
+	line-height: 47px;
+	position: relative;
+	left:-150px;
+	top:1px;
+	width: 90%;
+
+}
+
+
+#para{
+	font-family: museoslab500;
+	font-size: 23px;
+	color: rgb(69,69,69);
+	text-align: center;
+	text-shadow: #fff 0 1px 0;
+	position: relative;
+	top: 0px;
+	left: 69px;
+	width:430px;
+	line-height: 29px;
+}
+
+#demoandwatch ul {
+  list-style-type: none;
+}
+#demoandwatch li{
+  float: left;
+  position: relative;
+  left:78px;
+  top:0px;
+  padding-left:15px;
+}
+
+
+#bottombg {
+  background:url(./images/topbottom.png) no-repeat 0% 0%;
+  width: 905px;
+  background-position: bottom;
+  position: relative;
+  margin-left: 221px;
+  height: 189px;
+  top:-218px;
+}
+
+#box {
+	background-color: #add133;
+	height: 54px;
+	width: 308px;
+	border: 1px solid #7c9c1d;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	position: relative;
+	left: 800px;
+	top:-655px;
+}
+
+#signupbody {
+	background-image: url(./images/form.png);
+	width: 308px;
+	border: 1px solid #c3c4c4;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	height: 364px;
+	position: relative;
+	left: 800px;
+	top:-755px;
+}
+
+#links {
+	width: :315px;
+	height: 24px;
+	
+	position: relative;
+	
+}
+
+.links {
+	height: 24px;
+	width: 132px;
+	margin: 10.5px 1px 11px 16px;
+	display: inline-block;
+	position: relative;
+}
+
+
+
+#or{
+	position: absolute;
+	top: 45px;
+	left: 140px;
+	padding: 0 10px;
+	font-family: Georgia;
+	font-size: 13px;
+
+}
+
+.block {
+	width: 276px;
+	margin: 0px 16px 5px 16px;
+
+}
+
+.block input {
+	width:166px;
+	height: 28px;
+	padding: 1px 6px;
+	border: 1px solid #ababab;
+	margin-top: 1.5px;
+}
+
+#name {
+	margin-top: 12px;
+	margin-bottom: 6px;
+
+}
+
+#name input {
+	width: 116px;
+}
+
+#firstname {
+	margin-right: 6px;
+
+}
+
+#lastname {
+	position: relative;
+	top:0.75px;
+}
+
+#password1 {
+	position: relative;
+	top:0.75px;
+}
+
+label {
+	font-family: Georgia;
+	font-size: 11px;
+    font-style: oblique;
+    padding-left: 2.4px;
+}
+
+#selectbox {
+	height: 36px;
+	margin-top: 16px;
+	margin-bottom: 5px;
+	position: relative;
+	left: -0.5px;
+}
+
+select {
+	position: relative;
+	left: 1.5px;
+	width: 140px;
+	font-size: 13px;
+    border: 0;
+    padding: 0 60px 0 12px;
+    height: 31px;
+    line-height: 31px;
+    border-radius: 8px;
+    box-shadow: 0 1px 0 #fff;
+    background: url(./Images/select.png) no-repeat left 0,url(./Images/select.png) no-repeat right -72px,url(./Images/select.png) repeat-x left -36px;
+}
+
+.checkbox {
+	margin: 0;
+	margin-left: 16px;
+	position: relative;
+	top: -3px;
+}
+
+.checkbox label {
+	font-family: Helvetica;
+	font-style: normal;
+	color: #595959;
+	position: relative;
+	left: -2px;
+	top: 2px;
+}
+
+.checkbox input {
+	margin: 0;
+	margin-right: 0px;
+	background: url(./Images/checkbox.png) no-repeat;
+	border: none;
+	width: 15.5px;
+    height: 16.5px;
+    vertical-align: bottom;
+    position: relative;
+    top: 0.75px;
+}
+
+.buttonbox {
+	margin-left: 14px;
+}
+
+.buttonbox label{
+	font-family: Helvetica;
+	font-style: normal;
+	color: #595959;
+	position: relative;
+	top: -2px;
+	left: -0.5px;
+}
+
+.buttonbox label a {
+	color: #0d45c2;
+	text-decoration: none;
+}
+
+.buttonbox input {
+	width: 100px;
+    height: 40px;
+    background: url(./Images/button.png) no-repeat top left;
+    border: none;
+    position: relative;
+    top: 7.5px;
+    left: 17px;
+    cursor: pointer;
+}
+
+#reg{
+	position: relative;
+
+	top:19px;
+}
+
+#signup
+{
+	text-align: center;
+	position: relative;
+	top:11px;
+	font-family: museoslab500;
+	font-weight: bold;
+	font-size: 26px;
+	
+}
+
+
+#banner {
+  background:url(./images/formback.png);
+  position:relative;
+  width:365px;
+  height:90px;
+  top:-710px;
+  left:770px;
+}
+
+
+#feedbackbox {
+	width: 30px;
+	height: 100px;
+	position: fixed;
+	top: 45vh;
+	left: 0;
+	background: transparent url(./Images/feedback.png) repeat 0% 0%;
+	z-index: +5;
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+#feedback {
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	background-color: transparent;
+	position: relative;
+	top: 22px;
+	left: -34.5px;
+	opacity: 1;
+	transform: rotate(90deg);
+}
+
+#feedback p {
+	font-family: Helvetica;
+	font-size: 13px;
+	color: #eee;
+	position: relative;
+	top: 8px;
+	left: -1px;
+	text-shadow: 0 1px 0 #000;
+}
+
+#secondbox
+{
+	height:590px;
+	width:903px;
+	margin:auto;
+	margin-top:0px;
+	background-color: white;
+	border-radius: 6px;
+	position: relative;
+	top:-714px;
+	left:-86px;
+}
+
+#head
+{
+	font-family: museoslab500;
+	font-size: 25px;
+	font-weight: 100;
+	color:rgb(206,38,84);
+	position: relative;
+	top:23px;
+	left:30px;
+}
+
+#heads
+{
+	font-family: helvetica;
+	font-size: 20px;
+	color: rgb(69,69,69);
+	text-decoration: none;
+	font-weight: 50;
+	position: relative;
+	z-index: 1;
+}
+
+#content
+{
+	font-family: helvetica;
+	font-size: 17px;
+	color: rgb(69,69,69);
+	position: relative;
+	top:65px;
+	left: 165px;
+	z-index: 1;
+
+}
+
+#learnmore
+{
+	font-family: helvetica;
+	color:#4096e7;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#gb{
+	position: relative;
+	top:-368px;
+	left: 30px;
+}
+
+#lsn
+{
+	position: relative;
+	top:-220px;
+	left: -55px;
+}
+
+#prn{
+	position: relative;
+	top:-90px;
+	left: -160px;
+}
+
+#bottom ul {
+	font-family: helvetica;
+	font-size: 10px;
+  list-style-type:none;
+  position: relative;
+  top:-725px;
+  left:160px;
+  color:#6e99a2;
+
+}
+#bottom li {
+  float:left;
+  padding-left: 50px;
+  font-weight: lighter;
+}
+#bottom li a {
+  text-decoration: none;
+  color: #6e99a2;
+  font-weight: lighter;
+}
